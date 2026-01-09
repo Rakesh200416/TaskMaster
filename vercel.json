@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/:path*" },
-    { "source": "/(.+)", "destination": "/index.html" }
+  "builds": [
+    {
+      "src": "client/index.html",
+      "use": "@vercel/static"
+    }
   ],
-  "cleanUrls": true
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
 }
