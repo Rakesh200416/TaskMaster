@@ -132,12 +132,14 @@ Task-Master/
 npm install -g vercel
 ```
 
-2. Run the deployment command:
+2. The project includes a `vercel.json` configuration file that properly sets up the full-stack application
+
+3. Run the deployment command:
 ```bash
 vercel
 ```
 
-3. Follow the prompts to configure your project settings
+4. Follow the prompts to configure your project settings
 
 ### GitHub Repository Setup
 
