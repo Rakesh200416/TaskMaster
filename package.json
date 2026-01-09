@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "cd client && npx vite",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm ci && NODE_OPTIONS=--max_old_space_size=4096 npm run build",
     "preview": "cd client && npx vite preview",
     "check": "tsc"
   },
