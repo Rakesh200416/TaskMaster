@@ -132,7 +132,7 @@ Task-Master/
 npm install -g vercel
 ```
 
-2. The project includes a `vercel.json` configuration file that properly sets up the full-stack application
+2. The project includes a `vercel.json` configuration file and API route handlers that properly set up the full-stack application for serverless deployment
 
 3. Run the deployment command:
 ```bash
